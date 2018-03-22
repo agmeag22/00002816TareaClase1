@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.agmeag.a00002816tareaclase1.MainActivity"
+android:orientation="vertical">
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:adjustViewBounds="true"
+    android:cropToPadding="false"
+    android:layout_marginTop="24dp"
+    android:layout_marginBottom="24dp"
+    android:src="@drawable/perfil" />
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:textAlignment="center"
+    android:textSize="32sp"
+    android:text="Miguel Avilés" />
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:textAlignment="center"
+    android:textSize="16sp"
+
+    android:text="Ing. Informatico" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_marginTop="24dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+
+        android:layout_height="match_parent" android:orientation="vertical">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/github"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="agmeag22"
+            android:textSize="12sp"
+            android:layout_gravity="center_horizontal"
+            />
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/email"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_gravity="center_horizontal"
+            android:text="miguelernestoag@gmail.com"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" android:orientation="vertical">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+
+            android:src="@drawable/phone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="77266528"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/twitter"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text="\@mikemeag" />
+    </LinearLayout>
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="Power by Xeno'jiiva"
+
+        android:textAlignment="center" />
+</LinearLayout>
