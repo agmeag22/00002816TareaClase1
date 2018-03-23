@@ -37,7 +37,7 @@ android:orientation="vertical">
     android:textAlignment="center"
     android:textSize="16sp"
 
-    android:text="Ing. Informatico" />
+    android:text="Ing. Informático" />
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="0dp"
@@ -120,7 +120,7 @@ android:orientation="vertical">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="bottom"
-        android:text="Power by Xeno'jiiva"
+        android:text="Powered by Xeno'jiiva"
 
         android:textAlignment="center" />
 </LinearLayout>
