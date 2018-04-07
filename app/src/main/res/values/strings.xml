@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Info Personal</string>
+    <string name="nombre">Miguel Avilés</string>
+    <string name="carrera">Ing. Informático</string>
+    <string name="github">agmeag22</string>
+    <string name="email">miguelernestoag@gmail.com</string>
+    <string name="telefono">77266528</string>
+    <string name="twitter">\@mikemeag</string>
+    <string name="poweredby">Powered by Xeno\'jiiva</string>
 </resources>
